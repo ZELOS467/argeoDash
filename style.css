@@ -1,0 +1,55 @@
+/* CSS Styles created by Apix */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons+Round);
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', serif;
+    margin: 0;
+}
+
+#one {
+    color: #ffffff;
+    background: linear-gradient(150deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    line-height: .1em;
+    margin: 0;
+    padding: 0;
+}
+
+#one h1 {
+    font-size: min(12vw, 185px);
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.svgicon {
+    height: 1em;
+    width: 1em;
+    display: inline-flex;
+    align-self: center;
+    top: .125em;
+    position: relative;
+}
+
+#two {
+    margin: 8px;
+}
+
+.scroll {
+    height: 60px;
+    width: 60px;
+    border: 6px solid #ffffff;
+    border-radius: 60px;
+    color: #ffffff;
+    font-size: 60px;
+}
